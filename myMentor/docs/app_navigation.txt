@@ -1,0 +1,18 @@
+/home
+	/index
+/login
+	/login				# no string means no need request command
+	/signup
+/transaction
+	/<item_id>/order
+/user
+	/<user_id>/home
+	/<order_id>/session
+	/mentor/<user_id>/home
+	/mentor/<order_id>/session
+	/mentor/<user_id>/publish
+/browse
+	/<user_id>/browse
+	/<user_id><subject_id>/subject
+/subscribe
+	/<user_id>/subscribe
