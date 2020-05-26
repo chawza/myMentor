@@ -1,20 +1,21 @@
 Home - app:
-	/home/index.html
+	/home
 Login - app:
-	/login/login.html
-	/login/signup.html
+	/login
+	/login/signup
 Transaction - app:
-	/<user_id>/<course_id>/course/transaction/order.html	/<user_id>/<monthly/annualy>/transaction/order.html
+	/transaction/course/<user_id>/<course_id>
+	/transaction/subscription/<user_id>/<sub_id>
 user - app:
-	/<user_id>/user/home.html
-	/<user_id>/<order_id>/user/session.html
-	/<user_id>/mentor/home.html
-	/<user_id>/<order_id>/mentor/session.html
-	/<user_id>/mentor/publish.html
+	/user/<user_id>/home
+	/user/<user_id>/<order_id>/session
+	/mentor/<user_id>/home
+	/mentor/<user_id>/<order_id>/session
+	/mentor/<user_id>/publish
 browse - app:
-	/<user_id>/browse.html
-	/<user_id>/<subject_id>/browse/subject.html
+	/browse/<user_id>
+	/browse/<user_id>/<subject_id>
 subscribe - app:
-	/<user_id>/subscribe/subscribe.html
+	/subscribe/<user_id>
 
 	
